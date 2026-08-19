@@ -16,12 +16,11 @@
         pkgs = inputs.nixpkgs.legacyPackages.${system};
         java = pkgs.temurin-bin-25;
       in {
-        devShells.${system}.default = pkgs.mkShell {
+        devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             java
             gradle
           ];
-
           JAVA_HOME = "${java}";
         };
       }

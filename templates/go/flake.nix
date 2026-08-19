@@ -15,7 +15,7 @@
       system: let
         pkgs = inputs.nixpkgs.legacyPackages.${system};
       in {
-        devShells.${system}.default = pkgs.mkShell {
+        devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             go
             gofumpt
