@@ -17,6 +17,7 @@
         wrangler
         nodejs
         just
+        prettier
       ];
     };
   };
