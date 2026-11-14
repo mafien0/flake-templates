@@ -15,3 +15,4 @@ Does not include LSP servers, that thing should be installed/managed by an edito
 - rust
 - minecraft // Modding w/ java
 - go
+- cloudflare // Cloudflare Workers

@@ -21,6 +21,11 @@
         path = ./templates/go;
         description = "Basic flake for working with go";
       };
+
+      cloudflare = {
+        path = ./templates/cloudflare;
+        description = "Basic flake for Cloudflare Workers";
+      };
     };
   };
 }
