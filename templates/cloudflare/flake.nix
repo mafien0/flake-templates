@@ -1,6 +1,4 @@
 {
-  description = "Cloudflare Workers devshell";
-
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };

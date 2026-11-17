@@ -26,6 +26,11 @@
         path = ./templates/cloudflare;
         description = "Basic flake for Cloudflare Workers";
       };
+
+      python = {
+        path = ./templates/python;
+        description = "Basic flake for working with python";
+      };
     };
   };
 }
