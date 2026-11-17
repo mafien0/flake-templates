@@ -16,6 +16,11 @@
         just
         python3
       ];
+
+      LD_LIBRARY_PATH = with pkgs;
+        lib.makeLibraryPath [
+          stdenv.cc.cc.lib
+        ];
     };
   };
 }
